@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/BTTB LOGO.jpeg">
+    <title>Back To The Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d69fe3d682.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <img src="images/demo-png-1.png" class="demo">
+    <header class="naslovna-header">
+        <nav>
+            <a href="index.html"><img src="images/BTTB LOGO_invert.png"></a>
+            <ul class="desktop-nav">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="onama.html">O Nama</a></li>
+                <li><a href="planovi.html">Planovi</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <!--responsive nav button-->
+            <img id="open-nav" src="images/icon-hamburger.svg">
+        </nav>
+        <!--responsive nav-->
+        <ul class="mobile-nav">
+            <li><a href="index.html">Naslovna</a></li>
+            <li><a href="onama.html">O Nama</a></li>
+            <li><a href="planovi.html">Planovi</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="container">
+            <div class="slike">
+                <img src="images/aske.png">
+                <img src="images/kinez.png">
+            </div>
+            <h1 class="naslov">DOBRODOŠLI NA <span class="mark">BACK TO THE BASICS</span></h1>
+        </div>
+        <div class="header-background"></div>
+    </header>
+    <section class="flex-container">
+        <div class="text">
+            <h1><span class="mark-two">BTTB</span> PLANOVI</h1>
+            <p>Ako zelite da Vam pomognemo da postanete jači, izdržljiviji, i izgledate dobro 
+                te uz to dostignete spremnost do toga da mozda oborite neke svjetske 
+                rekorde, kliknite dugme ispod i narucite bttb plan.</p>
+            <span class="btn open-close-modal">PORUČI ODMAH</span>
+        </div>
+        <img src="images/119943132_1265882717085787_6923232004119331457_n.jpg">
+    </section>
+    <!--MODAL START-->
+    <div class="overlay">
+        <div class="modal">
+            <h1 class="modal-title">PRIJAVITE SE SADA POPUNJAVANJEM OVOG KRATKOG OBRASCA I POSTIGNITE 
+                TRANSFORMACIJU U SLJEDEĆIH 6 TJEDANA ZAJAMČENO</h1>
+            <button class="close-button open-close-modal">&times;</button>
+            <form class="modal-contact" action="action_page.php">
+                <input type="text" id="name" name="name" placeholder="Ime i prezime">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="text" id="mobile" name="mobile" placeholder="Broj telefona">
+
+                <label for="pitanje1">Koja je trenutno Vaša broj 1* frustracija?</label>
+                <select id="select" class="modal-select1" name="pitanje1">
+                    <option disabled selected>Izaberite opciju</option>
+                    <option value="motivacija">Nedostatak motivacije</option>
+                    <option value="treniranje">Nisam siguran kako da treniram</option>
+                    <option value="jedenje">Ne znam šta da jedem</option>
+                    <option value="vrijeme">Nedostatak vremena</option>
+                </select>
+
+                <label for="pitanje2">Koju formu vježbi preferirate?</label>
+                <select class="modal-select2" id="pitanje2" name="pitanje2">
+                    <option disabled selected>Izaberite opciju</option>
+                    <option value="snaga">Trening snage</option>
+                    <option value="izdrzljivost">Trening izdrđljivosti</option>
+                    <option value="kardio">Kardio jakog intenziteta</option>
+                </select>
+    
+                <label for="poruka">Koliko ste spremni, željni i u mogučnosti da uložite vrijeme, novac 
+                    i sebe u postizanje rezultata koje zaslužujete?</label>
+                <input class="modal-message" type="text" id="poruka" name="poruka" placeholder="Napišite Vaš odgovor ovdje.."></input>
+                
+                <input class="modal-message-submit" type="submit" value="POŠALJI">
+            </form>
+        </div>
+    </div>
+    <!--MODAL END-->
+    <video autoplay muted loop width="100%">
+        <source src="videos/s.mp4">
+    </video>
+    <section class="flex-container" id="sipka">
+        <img src="images/shop.jpg">
+        <div class="text">
+            <h1><span class="mark-two">BTTB</span> SHOP</h1>
+            <p>U slucaju da hocete da pocnete sa street workout-om a nemate gdje da radite 
+                zgibove, narucite Bttb šipke koje mozete ugraditi bilo gdje u svom 
+                dvoristu i uvijek imati tu u svom dvoristu mogucnost da obavljate 
+                superiorne treninge i postizete uspjeh u street workout-u</p>
+            <a href="shop.html" class="btn">PORUČI ODMAH</a>
+        </div>
+    </section>
+    <section class="transformacije">
+        <h1>TRANSFORMACIJE</h1>
+        <div class="grid-container">
+            <img src="images/2.jpg">
+            <img src="images/3.png">
+            <img src="images/5.jpg">
+            <img src="images/6.jpg">
+            <img src="images/8.jpg">
+            <img src="images/5.jpg">
+            <img src="images/2.jpg">
+            <img src="images/3.png">
+            <img src="images/8.jpg">
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <h1><span class="mark">KONTAKT</span> INFO</h1>
+            <span><i class="fas fa-map-marker-alt"></i> 120 Lorem ipsum</span>
+            <span><i class="fas fa-phone"></i> +388 123 456 789</span>
+            <span><i class="fas fa-envelope"></i> backtothebasics@gmail.com</span>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="sitemap">
+            <h1>SITEMAP</h1>
+            <ul class="sitemap">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="onama.html">O Nama</a></li>
+                <li><a href="planovi.html">Planovi</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

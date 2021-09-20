@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/BTTB LOGO.jpeg">
+    <title>Back To The Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d69fe3d682.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+    <img src="images/demo-png-1.png" class="demo">
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/BTTB LOGO_invert.png"></a>
+            <ul class="desktop-nav">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="onama.html">O Nama</a></li>
+                <li><a href="planovi.html">Planovi</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <!--responsive nav button-->
+            <img id="open-nav" src="images/icon-hamburger.svg">
+        </nav>
+        <!--responsive nav-->
+        <ul class="mobile-nav">
+            <li><a href="index.html">Naslovna</a></li>
+            <li><a href="onama.html">O Nama</a></li>
+            <li><a href="planovi.html">Planovi</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="header-background-2"></div>
+    </header>
+    <!--CHEKOUT START-->
+    <div class="overlay">
+        <div class="checkout-container">
+            <form action="action_page.php">
+                <span class="close-button open-close-modal">&times;</span>
+                <h3>Plati PayPal - om</h3>
+                <a href="https://www.paypal.com/us/signin"><img src="images/paypal.svg"></a>
+                <input type="email" placeholder="e-mail">
+                <input type="text" placeholder="ime i prezime">
+                <input type="text" placeholder="Adresa">
+                <input type="text" placeholder="Grad">
+                <div class="flex">
+                    <select placeholder="Država">
+                        <option>Srbija</option>
+                        <option>BiH</option>
+                        <option>Hrvatska</option>
+                    </select>
+                    <input type="text" placeholder="ZIP Kod">
+                </div>
+                <input type="text" placeholder="Broj telefona">
+                <input type="submit" value="PORUČI">
+            </form>
+        </div>
+    </div>
+    <!--CHEKOUT END-->
+    <section class="main-2">
+        <div class="flex-container">
+            <div class="text-2">
+                <h1><span class="mark-two">BTTB</span> SHOP</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequatur 
+                    nulla quaerat animi doloremque, facere beatae iste tenetur nisi eligendi 
+                    mollitia illum sint officiis sapiente dolor voluptates labore qui veniam.<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repellat molestias 
+                    facilis fuga! Nulla aliquam deleniti, praesentium vitae quibusdam doloremque iure! 
+                    Soluta iusto, dolor repellat quaerat quibusdam corrupti alias? Accusamus!</p>
+                <span class="btn open-close-modal">KUPI ODMAH</span>
+            </div>
+            <img src="images/shop1.jpg">
+        </div>
+        <div class="flex-container">
+            <img src="images/shop2.jpg" id="majica">
+            <div class="text">
+                <h1><span class="mark-two">BTTB</span> MAJICE</h1>
+                <span class="mark-two">$30</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequatur 
+                    nulla quaerat animi doloremque, facere beatae iste tenetur nisi eligendi 
+                    mollitia illum sint officiis sapiente dolor voluptates labore qui veniam.iure! 
+                    Soluta iusto, dolor repellat quaerat quibusdam corrupti alias? Accusamus!</p>
+                <span class="btn open-close-modal">KUPI ODMAH</span>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="text">
+                <h1><span class="mark-two">BTTB</span> MAJICA BEZ RUKAVA</h1>
+                <span class="mark-two">$30</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequatur 
+                    nulla quaerat animi doloremque, facere beatae iste tenetur nisi eligendi 
+                    mollitia illum sint officiis sapiente dolor voluptates labore qui veniam. 
+                    facilis fuga! Nulla aliquam deleniti, praesentium vitae quibusdam doloremque iure! 
+                    Soluta iusto, dolor repellat quaerat quibusdam corrupti alias? Accusamus!</p>
+                <span class="btn open-close-modal">KUPI ODMAH</span>
+            </div>
+            <img src="images/shop3.jpg">
+        </div>
+        <div class="flex-container">
+            <img src="images/sipka.jpg">
+            <div class="text">
+                <h1><span class="mark-two">BTTB</span> ŠIPKA ZA ZGIBOVE</h1>
+                <span class="mark-two">$99</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequatur 
+                    nulla quaerat animi doloremque, facere beatae iste tenetur nisi eligendi 
+                    mollitia illum sint officiis sapiente dolor voluptates labore qui veniam. 
+                    facilis fuga! Nulla aliquam deleniti, praesentium vitae quibusdam doloremque iure! 
+                    Soluta iusto, dolor repellat quaerat quibusdam corrupti alias? Accusamus!</p>
+                <span class="btn open-close-modal">KUPI ODMAH</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <h1><span class="mark">KONTAKT</span> INFO</h1>
+            <span><i class="fas fa-map-marker-alt"></i> 120 Lorem ipsum</span>
+            <span><i class="fas fa-phone"></i> +388 123 456 789</span>
+            <span><i class="fas fa-envelope"></i> backtothebasics@gmail.com</span>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="sitemap">
+            <h1>SITEMAP</h1>
+            <ul class="sitemap">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="onama.html">O Nama</a></li>
+                <li><a href="planovi.html">Planovi</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

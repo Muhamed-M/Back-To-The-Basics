@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/BTTB LOGO.jpeg">
+    <title>Back To The Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d69fe3d682.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <img src="images/demo-png-1.png" class="demo">
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/BTTB LOGO_invert.png"></a>
+            <ul class="desktop-nav">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="onama.html">O Nama</a></li>
+                <li><a href="planovi.html">Planovi</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <!--responsive nav button-->
+            <img id="open-nav" src="images/icon-hamburger.svg">
+        </nav>
+        <!--responsive nav-->
+        <ul class="mobile-nav">
+            <li><a href="index.html">Naslovna</a></li>
+            <li><a href="onama.html">O Nama</a></li>
+            <li><a href="planovi.html">Planovi</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="header-background-2"></div>
+    </header>
+    <!--MODAL START-->
+    <div class="overlay">
+        <div class="modal">
+            <h1 class="modal-title">PRIJAVITE SE SADA POPUNJAVANJEM OVOG KRATKOG OBRASCA I POSTIGNITE 
+                TRANSFORMACIJU U SLJEDEĆIH 6 TJEDANA ZAJAMČENO</h1>
+            <button class="close-button open-close-modal">&times;</button>
+            <form class="modal-contact" action="action_page.php">
+                <input type="text" id="name" name="name" placeholder="Ime i prezime">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="text" id="mobile" name="mobile" placeholder="Broj telefona">
+
+                <label for="pitanje1">Koja je trenutno Vaša broj 1* frustracija?</label>
+                <select id="select" class="modal-select1" name="pitanje1">
+                    <option disabled selected>Izaberite opciju</option>
+                    <option value="motivacija">Nedostatak motivacije</option>
+                    <option value="treniranje">Nisam siguran kako da treniram</option>
+                    <option value="jedenje">Ne znam šta da jedem</option>
+                    <option value="vrijeme">Nedostatak vremena</option>
+                </select>
+
+                <label for="pitanje2">Koju formu vježbi preferirate?</label>
+                <select class="modal-select2" id="pitanje2" name="pitanje2">
+                    <option disabled selected>Izaberite opciju</option>
+                    <option value="snaga">Trening snage</option>
+                    <option value="izdrzljivost">Trening izdrđljivosti</option>
+                    <option value="kardio">Kardio jakog intenziteta</option>
+                </select>
+    
+                <label for="poruka">Koliko ste spremni, željni i u mogučnosti da uložite vrijeme, novac 
+                    i sebe u postizanje rezultata koje zaslužujete?</label>
+                <input class="modal-message" type="text" id="poruka" name="poruka" placeholder="Napišite Vaš odgovor ovdje.."></input>
+                
+                <input class="modal-message-submit" type="submit" value="POŠALJI">
+            </form>
+        </div>
+    </div>
+    <!--MODAL END-->
+    <section class="main-2">
+        <div class="flex-container">
+            <div class="text-2">
+                <h1><span class="mark-two">BTTB</span> PLANOVI - <span class="mark-two">$400</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequatur 
+                    nulla quaerat animi doloremque, facere beatae iste tenetur nisi eligendi 
+                    mollitia illum sint officiis sapiente dolor voluptates labore qui veniam.<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repellat molestias 
+                    facilis fuga! Nulla aliquam deleniti, praesentium vitae quibusdam doloremque iure! 
+                    Soluta iusto, dolor repellat quaerat quibusdam corrupti alias? Accusamus!<br><br>Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Ipsa omnis sed nostrum tenetur 
+                    consequatur ipsum doloremque, reiciendis consequuntur, dolores aperiam quo. 
+                    Itaque, esse laudantium officia voluptatum soluta ab cupiditate impedit.</p>
+                <span class="btn open-close-modal">KUPI ODMAH</span>
+            </div>
+            <img src="images/planovi1.jpg">
+        </div>
+        <div class="flex-container">
+            <img src="images/planovi2.jpg">
+            <div class="text-2">
+                <h1><span class="mark-two">BTTB</span> VOJNA I POLICIJSKA OBUKA - <span class="mark-two">$300</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequatur 
+                    nulla quaerat animi doloremque, facere beatae iste tenetur nisi eligendi 
+                    mollitia illum sint officiis sapiente dolor voluptates labore qui veniam.<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repellat molestias 
+                    facilis fuga! Nulla aliquam deleniti, praesentium vitae quibusdam doloremque iure! 
+                    Soluta iusto, dolor repellat quaerat quibusdam corrupti alias? Accusamus! 
+                    Itaque, esse laudantium officia voluptatum soluta ab cupiditate impedit.</p>
+                <span class="btn open-close-modal">KUPI ODMAH</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <h1><span class="mark">KONTAKT</span> INFO</h1>
+            <span><i class="fas fa-map-marker-alt"></i> 120 Lorem ipsum</span>
+            <span><i class="fas fa-phone"></i> +388 123 456 789</span>
+            <span><i class="fas fa-envelope"></i> backtothebasics@gmail.com</span>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="sitemap">
+            <h1>SITEMAP</h1>
+            <ul class="sitemap">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="onama.html">O Nama</a></li>
+                <li><a href="planovi.html">Planovi</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
